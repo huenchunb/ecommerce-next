@@ -40,7 +40,7 @@ export const saleType = defineType({
         defineField({
             name: "couponCode",
             title: "Coupon Code",
-            type: "boolean",
+            type: "string",
         }),
         defineField({
             name: "isActive",
